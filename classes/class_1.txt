@@ -1,0 +1,17 @@
+Class: Student
+
+Attributes:
+name (string)
+school_level (integer)
+student_id (string)
+date_of_birth (integer)
+days_out_of_class (integer)
+classes (array of strings)
+class_grades (hash with key class and float grades)
+
+
+Methods:
+drop_class (removes a class from the classes array)
+grade_point_average (takes an average of the grades hash)
+absent (adds 1 to the days_out_of_class)
+age_of_student (subtracts date_of_birth from current year)
