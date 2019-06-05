@@ -1,0 +1,14 @@
+Class: Room
+
+Attributes:
+capacity (integer)
+assigned_teacher (string)
+current_number_of_desks (integer)
+current_number_students (integer)
+sink_in_room (boolean)
+
+Methods:
+add_student (increment current_number_students by 1)
+can_assign_art_teacher (if sink_in_room = true, then return true)
+room_at_capacity (if capacity - current_number_of_desks = 0, return true)
+add_desk (if current_number_of_desks < capacity then increment current_number_of_desks by 1)

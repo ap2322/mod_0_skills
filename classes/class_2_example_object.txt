@@ -1,0 +1,14 @@
+Class: Lab102
+
+Attributes:
+capacity: 26
+assigned_teacher: "Donna Ross"
+current_number_of_desks: 23
+current_number_students: 23
+sink_in_room: true
+
+Methods:
+add_student (current_number_students = 24)
+can_assign_art_teacher (return true)
+room_at_capacity (false)
+add_desk (current_number_of_desks = 24)
