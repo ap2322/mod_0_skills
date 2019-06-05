@@ -1,0 +1,17 @@
+Class: Wyatt Rogers
+
+Attributes:
+name: "Wyatt Rogers"
+school_level: 8
+student_id: "34028"
+date_of_birth: 2006
+days_out_of_class: 6
+classes: ["Algebra", "World History", "Science", "Shop", "Athletics", "Study Hall"]
+class_grades: {"Algebra": 83, "World History": 90, "Science": 95, "Shop": 98, "Athletics": 100, "Study Hall": nill}
+
+
+Methods:
+drop_class (classes = ["Algebra", "World History", "Science", "Athletics", "Study Hall"])
+grade_point_average = 93.2
+absent (days_out_of_class = 7)
+age_of_student (13)
