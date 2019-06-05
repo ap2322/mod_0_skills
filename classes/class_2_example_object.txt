@@ -1,4 +1,4 @@
-Class: Lab102
+Class: Lab102 
 
 Attributes:
 capacity: 26
